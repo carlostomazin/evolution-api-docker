@@ -66,6 +66,7 @@ services:
     env_file:
       - .env
     environment:
+      - N8N_SECURE_COOKIE=false
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - N8N_RUNNERS_ENABLED=true
       - NODE_ENV=production
